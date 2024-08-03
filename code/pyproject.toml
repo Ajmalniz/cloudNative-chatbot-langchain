@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Ajmalniz <128520849+Ajmalniz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-openai = "^0.1.20"
+langchain-core = "^0.2.28"
+python-dotenv = "^1.0.1"
+streamlit = "^1.37.0"
+langchain-community = "^0.2.11"
+langserve = "^0.2.2"
+google-generativeai = "^0.7.2"
+langchain-google-genai = "^1.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
